@@ -13,4 +13,3 @@ public interface Player
   //  Initiates this player's next move
   void makeMove();
 }
-

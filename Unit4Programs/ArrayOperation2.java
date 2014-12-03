@@ -25,6 +25,7 @@ public class ArrayOperation2{
         for (int i = 0; i<values.length; i++)
         {
             int count = values[i];
+            
             values[i] = num;
             num = count;
             
@@ -46,6 +47,9 @@ public class ArrayOperation2{
         }
         
     }
+
+
+        
     public static void main(String[] args)
     {
         ArrayOperation2 o = new ArrayOperation2();
